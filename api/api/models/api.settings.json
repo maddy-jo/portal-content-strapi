@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "APIs",
+  "info": {
+    "name": "API",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "enabledByDefault": {
+      "type": "boolean"
+    },
+    "vaInternalOnly": {
+      "type": "boolean"
+    }
+  }
+}
