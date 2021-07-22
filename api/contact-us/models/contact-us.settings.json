@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uses",
+  "info": {
+    "name": "Contact Us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leadParagraph": {
+      "type": "richtext"
+    },
+    "consumerDescription": {
+      "type": "richtext"
+    },
+    "providerDescription": {
+      "type": "richtext"
+    },
+    "providerDescriptionChecklist": {
+      "type": "richtext"
+    },
+    "providerOpenAPISpec": {
+      "type": "richtext"
+    },
+    "providerOtherInformation": {
+      "type": "richtext"
+    }
+  }
+}

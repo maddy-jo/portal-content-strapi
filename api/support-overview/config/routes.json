@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/support-overview",
+      "handler": "support-overview.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/support-overview",
+      "handler": "support-overview.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/support-overview",
+      "handler": "support-overview.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

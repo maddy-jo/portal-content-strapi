@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "support_overviews",
+  "info": {
+    "name": "Support Overview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leadParagraph": {
+      "type": "richtext"
+    },
+    "veteranNotice": {
+      "type": "richtext"
+    }
+  }
+}

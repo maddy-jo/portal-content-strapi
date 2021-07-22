@@ -20,6 +20,9 @@
     },
     "apis": {
       "collection": "api"
+    },
+    "overview": {
+      "type": "richtext"
     }
   }
 }
