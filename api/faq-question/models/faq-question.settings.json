@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_questions",
+  "info": {
+    "name": "FAQ Question"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

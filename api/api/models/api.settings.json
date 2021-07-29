@@ -16,13 +16,24 @@
       "type": "string"
     },
     "description": {
+      "type": "text"
+    },
+    "deprecationNotice": {
       "type": "richtext"
     },
-    "enabledByDefault": {
-      "type": "boolean"
+    "deactivationNotice": {
+      "type": "richtext"
     },
-    "vaInternalOnly": {
-      "type": "boolean"
+    "releaseNotes": {
+      "type": "richtext"
+    },
+    "veteranNotice": {
+      "type": "richtext"
+    },
+    "friendlyId": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

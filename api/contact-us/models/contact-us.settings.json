@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "contact_uses",
   "info": {
-    "name": "Contact Us"
+    "name": "Contact Us",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,6 +29,21 @@
     },
     "providerOtherInformation": {
       "type": "richtext"
+    },
+    "contactInfoHeading": {
+      "type": "string"
+    },
+    "formTypeHeading": {
+      "type": "string"
+    },
+    "veteranNotice": {
+      "type": "richtext"
+    },
+    "consumerOptionLabel": {
+      "type": "text"
+    },
+    "providerOptionLabel": {
+      "type": "text"
     }
   }
 }

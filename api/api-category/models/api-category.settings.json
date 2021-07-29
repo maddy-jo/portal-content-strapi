@@ -15,14 +15,27 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
     "apis": {
       "collection": "api"
     },
     "overview": {
       "type": "richtext"
+    },
+    "consumerDocsLink": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "quickstart": {
+      "type": "richtext"
+    },
+    "veteranNotice": {
+      "type": "richtext"
+    },
+    "friendlyId": {
+      "type": "string",
+      "required": true
     }
   }
 }
