@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "deprecationNotice": {
       "type": "richtext"
@@ -25,7 +27,8 @@
       "type": "richtext"
     },
     "releaseNotes": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "veteranNotice": {
       "type": "richtext"
